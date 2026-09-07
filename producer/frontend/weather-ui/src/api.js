@@ -20,6 +20,10 @@ export async function getHistory() {
   return parseResponse(await fetch('/api/weather/history'))
 }
 
+export async function getRealWeather() {
+  return parseResponse(await fetch('/api/weather/real'))
+}
+
 export async function submitWeather(payload) {
   return parseResponse(await fetch('/api/weather', {
     method: 'POST',

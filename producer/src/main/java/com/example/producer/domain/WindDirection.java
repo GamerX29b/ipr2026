@@ -20,4 +20,10 @@ public enum WindDirection {
     public String getLabel() {
         return label;
     }
+
+    public static WindDirection fromDegrees(double degrees) {
+        double normalized = (degrees % 360 + 360) % 360;
+        int index = (int) Math.round(normalized / 45.0) % 8;
+        return values()[index];
+    }
 }

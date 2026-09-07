@@ -8,21 +8,21 @@
 
  :: Spring Boot ::                (v4.0.8)
 
-2026-09-07T12:54:13.718+06:00  INFO 36216 --- [weather-producer] [           main] c.example.producer.ProducerApplication   : Starting ProducerApplication v1.0.0 using Java 25.0.3 with PID 36216 (D:\ipr2026\producer\target\weather-producer-1.0.0.jar started by Eyrikh in D:\ipr2026)
-2026-09-07T12:54:13.720+06:00  INFO 36216 --- [weather-producer] [           main] c.example.producer.ProducerApplication   : No active profile set, falling back to 1 default profile: "default"
-2026-09-07T12:54:14.181+06:00  INFO 36216 --- [weather-producer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-09-07T12:54:14.216+06:00  INFO 36216 --- [weather-producer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
-2026-09-07T12:54:14.589+06:00  INFO 36216 --- [weather-producer] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
-2026-09-07T12:54:14.601+06:00  INFO 36216 --- [weather-producer] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-09-07T12:54:14.601+06:00  INFO 36216 --- [weather-producer] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
-2026-09-07T12:54:14.625+06:00  INFO 36216 --- [weather-producer] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 869 ms
-2026-09-07T12:54:14.779+06:00  INFO 36216 --- [weather-producer] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-09-07T12:54:14.816+06:00  INFO 36216 --- [weather-producer] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.24.Final
-2026-09-07T12:54:15.117+06:00  INFO 36216 --- [weather-producer] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-09-07T12:54:15.134+06:00  INFO 36216 --- [weather-producer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-09-07T12:54:15.250+06:00  INFO 36216 --- [weather-producer] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5909ae90
-2026-09-07T12:54:15.251+06:00  INFO 36216 --- [weather-producer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-09-07T12:54:15.286+06:00  INFO 36216 --- [weather-producer] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-09-07T14:19:18.684+06:00  INFO 56588 --- [weather-producer] [           main] c.example.producer.ProducerApplication   : Starting ProducerApplication v1.0.0 using Java 25.0.3 with PID 56588 (D:\ipr2026\producer\target\weather-producer-1.0.0.jar started by Eyrikh in D:\ipr2026)
+2026-09-07T14:19:18.686+06:00  INFO 56588 --- [weather-producer] [           main] c.example.producer.ProducerApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-09-07T14:19:19.117+06:00  INFO 56588 --- [weather-producer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-07T14:19:19.144+06:00  INFO 56588 --- [weather-producer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2026-09-07T14:19:19.554+06:00  INFO 56588 --- [weather-producer] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-07T14:19:19.568+06:00  INFO 56588 --- [weather-producer] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-07T14:19:19.568+06:00  INFO 56588 --- [weather-producer] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-07T14:19:19.593+06:00  INFO 56588 --- [weather-producer] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 864 ms
+2026-09-07T14:19:19.726+06:00  INFO 56588 --- [weather-producer] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-07T14:19:19.764+06:00  INFO 56588 --- [weather-producer] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.24.Final
+2026-09-07T14:19:20.112+06:00  INFO 56588 --- [weather-producer] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-07T14:19:20.132+06:00  INFO 56588 --- [weather-producer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-07T14:19:20.241+06:00  INFO 56588 --- [weather-producer] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a7a6d34
+2026-09-07T14:19:20.243+06:00  INFO 56588 --- [weather-producer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-07T14:19:20.281+06:00  INFO 56588 --- [weather-producer] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:postgresql://localhost:5432/weather_producer]
 	Database driver: PostgreSQL JDBC Driver
 	Database dialect: PostgreSQLDialect
@@ -34,16 +34,19 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-09-07T12:54:15.800+06:00  INFO 36216 --- [weather-producer] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-09-07T12:54:15.829+06:00  INFO 36216 --- [weather-producer] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-09-07T12:54:15.885+06:00  INFO 36216 --- [weather-producer] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-09-07T12:54:16.066+06:00  INFO 36216 --- [weather-producer] [           main] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
-2026-09-07T12:54:16.291+06:00  INFO 36216 --- [weather-producer] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
-2026-09-07T12:54:16.301+06:00  INFO 36216 --- [weather-producer] [           main] c.example.producer.ProducerApplication   : Started ProducerApplication in 2.869 seconds (process running for 3.194)
-2026-09-07T13:04:45.521+06:00  INFO 36216 --- [weather-producer] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-09-07T13:04:45.522+06:00  INFO 36216 --- [weather-producer] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-09-07T13:04:45.522+06:00  INFO 36216 --- [weather-producer] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-09-07T13:04:45.649+06:00  INFO 36216 --- [weather-producer] [nio-8081-exec-1] o.a.kafka.common.config.AbstractConfig   : ProducerConfig values: 
+2026-09-07T14:19:20.898+06:00  INFO 56588 --- [weather-producer] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-07T14:19:20.948+06:00  INFO 56588 --- [weather-producer] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-07T14:19:21.121+06:00  INFO 56588 --- [weather-producer] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-07T14:19:21.342+06:00  INFO 56588 --- [weather-producer] [           main] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-07T14:19:21.586+06:00  INFO 56588 --- [weather-producer] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-07T14:19:21.598+06:00  INFO 56588 --- [weather-producer] [           main] c.example.producer.ProducerApplication   : Started ProducerApplication in 3.202 seconds (process running for 3.582)
+2026-09-07T14:29:15.232+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-07T14:29:15.237+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-07T14:29:15.239+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-09-07T14:29:15.761+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-1] c.e.producer.service.RealWeatherService  : Получена реальная погода: температура=27.4, влажность=32, ветер=3.21 м/с (SOUTH)
+2026-09-07T14:29:20.277+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-3] c.e.producer.service.RealWeatherService  : Получена реальная погода: температура=27.4, влажность=32, ветер=3.21 м/с (SOUTH)
+2026-09-07T14:29:27.917+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-5] c.e.producer.service.RealWeatherService  : Получена реальная погода: температура=27.4, влажность=32, ветер=3.21 м/с (SOUTH)
+2026-09-07T14:29:28.154+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-6] o.a.kafka.common.config.AbstractConfig   : ProducerConfig values: 
 	acks = -1
 	batch.size = 16384
 	bootstrap.servers = [localhost:9092]
@@ -157,10 +160,11 @@
 	transactional.id = null
 	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
 
-2026-09-07T13:04:45.665+06:00  INFO 36216 --- [weather-producer] [nio-8081-exec-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
-2026-09-07T13:04:45.718+06:00  INFO 36216 --- [weather-producer] [nio-8081-exec-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=weather-producer-producer-1] Instantiated an idempotent producer.
-2026-09-07T13:04:45.744+06:00  INFO 36216 --- [weather-producer] [nio-8081-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.1.2
-2026-09-07T13:04:45.745+06:00  INFO 36216 --- [weather-producer] [nio-8081-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: c82fd9b934b4c1e6
-2026-09-07T13:04:45.745+06:00  INFO 36216 --- [weather-producer] [nio-8081-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1788764685743
-2026-09-07T13:04:45.926+06:00  INFO 36216 --- [weather-producer] [ucer-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=weather-producer-producer-1] Cluster ID: 5L6g3nShT-eMCtK--X86sw
-2026-09-07T13:04:45.926+06:00  INFO 36216 --- [weather-producer] [ucer-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=weather-producer-producer-1] ProducerId set to 1 with epoch 0
+2026-09-07T14:29:28.180+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-6] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2026-09-07T14:29:28.284+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-6] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=weather-producer-producer-1] Instantiated an idempotent producer.
+2026-09-07T14:29:28.333+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-6] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.1.2
+2026-09-07T14:29:28.335+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-6] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: c82fd9b934b4c1e6
+2026-09-07T14:29:28.336+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-6] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1788769768330
+2026-09-07T14:29:28.674+06:00  INFO 56588 --- [weather-producer] [ucer-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=weather-producer-producer-1] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-07T14:29:28.676+06:00  INFO 56588 --- [weather-producer] [ucer-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=weather-producer-producer-1] ProducerId set to 3 with epoch 0
+2026-09-07T14:36:10.994+06:00  INFO 56588 --- [weather-producer] [nio-8081-exec-2] c.e.producer.service.RealWeatherService  : Получена реальная погода: температура=27.4, влажность=31, ветер=3.21 м/с (SOUTH)

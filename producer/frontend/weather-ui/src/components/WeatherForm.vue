@@ -1,6 +1,6 @@
 <script setup>
 import { reactive, ref } from 'vue'
-import { submitWeather } from '../api.js'
+import { submitWeather, getRealWeather } from '../api.js'
 
 const emit = defineEmits(['saved'])
 
@@ -19,9 +19,33 @@ const form = reactive({ temperature: '', humidity: '', windSpeed: '', windDirect
 const invalid = reactive({ temperature: false, humidity: false, windSpeed: false, windDirection: false })
 const submitting = ref(false)
 const serverError = ref('')
+const fetchingReal = ref(false)
+const realWeatherInfo = ref('')
 
 function isEmpty(value) {
   return value === '' || value === null || value === undefined
+}
+
+async function fillFromReal() {
+  serverError.value = ''
+  realWeatherInfo.value = ''
+  fetchingReal.value = true
+  try {
+    const real = await getRealWeather()
+    form.temperature = String(real.temperature)
+    form.humidity = String(real.humidity)
+    form.windSpeed = String(real.windSpeed)
+    form.windDirection = real.windDirection
+    invalid.temperature = false
+    invalid.humidity = false
+    invalid.windSpeed = false
+    invalid.windDirection = false
+    realWeatherInfo.value = `Загружены реальные данные: ${real.location}, измерено ${real.measuredAt}`
+  } catch (error) {
+    serverError.value = error.message
+  } finally {
+    fetchingReal.value = false
+  }
 }
 
 async function onSubmit() {
@@ -107,6 +131,12 @@ async function onSubmit() {
       </label>
     </div>
     <p v-if="serverError" class="error-text">{{ serverError }}</p>
-    <button type="submit" :disabled="submitting">Передать</button>
+    <p v-else-if="realWeatherInfo" class="hint">{{ realWeatherInfo }}</p>
+    <div class="form-actions">
+      <button type="submit" :disabled="submitting">Передать</button>
+      <button type="button" :disabled="fetchingReal" @click="fillFromReal">
+        {{ fetchingReal ? 'Запрашиваем погоду…' : 'Запросить реальную погоду' }}
+      </button>
+    </div>
   </form>
 </template>

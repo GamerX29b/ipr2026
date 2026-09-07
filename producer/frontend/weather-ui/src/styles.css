@@ -83,6 +83,17 @@ body {
   cursor: default;
 }
 
+.form-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.form-actions button[type='button'] {
+  background: #0e9f6e;
+}
+
 .error-text {
   color: #dc2626;
   margin: 12px 0 0;
